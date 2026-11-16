@@ -1,0 +1,66 @@
+{
+  "$description": "Illustrative token starter for universal-ui-engineering. Units are web CSS dimensions here; map to platform-native point/dp/logical-unit roles, not raw numeric equivalence. Never overwrite an existing product design system blindly.",
+  "spacing": {
+    "0": { "$type": "dimension", "$value": "0px" },
+    "0_5": { "$type": "dimension", "$value": "2px" },
+    "1": { "$type": "dimension", "$value": "4px" },
+    "2": { "$type": "dimension", "$value": "8px" },
+    "3": { "$type": "dimension", "$value": "12px" },
+    "4": { "$type": "dimension", "$value": "16px" },
+    "5": { "$type": "dimension", "$value": "20px" },
+    "6": { "$type": "dimension", "$value": "24px" },
+    "8": { "$type": "dimension", "$value": "32px" },
+    "10": { "$type": "dimension", "$value": "40px" },
+    "12": { "$type": "dimension", "$value": "48px" },
+    "16": { "$type": "dimension", "$value": "64px" },
+    "20": { "$type": "dimension", "$value": "80px" },
+    "24": { "$type": "dimension", "$value": "96px" }
+  },
+  "radius": {
+    "control": { "$type": "dimension", "$value": "8px" },
+    "card": { "$type": "dimension", "$value": "12px" },
+    "dialog": { "$type": "dimension", "$value": "16px" },
+    "pill": { "$type": "dimension", "$value": "999px" }
+  },
+  "typography": {
+    "body": { "$type": "dimension", "$value": "16px" },
+    "small": { "$type": "dimension", "$value": "14px" },
+    "caption": { "$type": "dimension", "$value": "13px" },
+    "cardTitle": { "$type": "dimension", "$value": "18px" },
+    "sectionTitle": { "$type": "dimension", "$value": "24px" },
+    "pageTitle": { "$type": "dimension", "$value": "32px" },
+    "metric": { "$type": "dimension", "$value": "30px" }
+  },
+  "color": {
+    "light": {
+      "canvas": { "$type": "color", "$value": "#F8FAFC" },
+      "surface": { "$type": "color", "$value": "#FFFFFF" },
+      "textPrimary": { "$type": "color", "$value": "#0F172A" },
+      "textSecondary": { "$type": "color", "$value": "#475569" },
+      "borderSubtle": { "$type": "color", "$value": "#CBD5E1" },
+      "borderStrong": { "$type": "color", "$value": "#64748B" },
+      "action": { "$type": "color", "$value": "#1D4ED8" },
+      "actionHover": { "$type": "color", "$value": "#1E40AF" },
+      "onAction": { "$type": "color", "$value": "#FFFFFF" },
+      "focus": { "$type": "color", "$value": "#1D4ED8" },
+      "dangerText": { "$type": "color", "$value": "#B91C1C" },
+      "successText": { "$type": "color", "$value": "#166534" },
+      "warningText": { "$type": "color", "$value": "#92400E" }
+    },
+    "dark": {
+      "canvas": { "$type": "color", "$value": "#0B1220" },
+      "surface": { "$type": "color", "$value": "#151F30" },
+      "textPrimary": { "$type": "color", "$value": "#F8FAFC" },
+      "textSecondary": { "$type": "color", "$value": "#CBD5E1" },
+      "borderSubtle": { "$type": "color", "$value": "#475569" },
+      "borderStrong": { "$type": "color", "$value": "#94A3B8" },
+      "action": { "$type": "color", "$value": "#93C5FD" },
+      "actionHover": { "$type": "color", "$value": "#BFDBFE" },
+      "onAction": { "$type": "color", "$value": "#0B1220" },
+      "focus": { "$type": "color", "$value": "#93C5FD" },
+      "dangerText": { "$type": "color", "$value": "#FCA5A5" },
+      "successText": { "$type": "color", "$value": "#86EFAC" },
+      "warningText": { "$type": "color", "$value": "#FDE68A" }
+    }
+  }
+}

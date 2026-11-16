@@ -1,0 +1,4 @@
+interface:
+  display_name: "Universal UI Engineering"
+  short_description: "Accessible, consistent, responsive UI across platforms"
+  default_prompt: "Use $universal-ui-engineering to review or implement this UI consistently across supported device sizes, with accessibility, component states, and regression checks. Preserve the project's brand and functionality."
