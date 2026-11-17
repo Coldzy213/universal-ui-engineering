@@ -28,7 +28,7 @@ It can guide work on **web, iOS, Android, tablet, and desktop** applications, ad
 - **Codex** in VS Code or Codex CLI, installed and signed in.
 - **Git** installed if using the recommended Git installation commands. Check with `git --version`.
 - An existing application or a new project to work on.
-- Access to this repository. **Replace `YOUR_USERNAME` below with the account that published this skill on GitHub.**
+- Access to this repository. **Replace `Coldzy213` below with the account that published this skill on GitHub.**
 
 You do **not** need to install React, Tailwind, Flutter, or any other framework solely to use this skill. It provides instructions and references, not a required UI runtime.
 
@@ -55,7 +55,7 @@ Open PowerShell (or the VS Code terminal) and run:
 New-Item -ItemType Directory -Force "$HOME\.agents\skills" | Out-Null
 
 # Download the complete skill from GitHub.
-git clone https://github.com/YOUR_USERNAME/universal-ui-engineering.git `
+git clone https://github.com/Coldzy213/universal-ui-engineering.git `
   "$HOME\.agents\skills\universal-ui-engineering"
 
 # Verify that Codex can find the skill manifest.
@@ -74,7 +74,7 @@ Expected output for the last command: `True`.
 ```bash
 mkdir -p "$HOME/.agents/skills"
 
-git clone https://github.com/YOUR_USERNAME/universal-ui-engineering.git \
+git clone https://github.com/Coldzy213/universal-ui-engineering.git \
   "$HOME/.agents/skills/universal-ui-engineering"
 
 test -f "$HOME/.agents/skills/universal-ui-engineering/SKILL.md" && echo 'Skill installed'
@@ -93,7 +93,7 @@ In Codex, ask the built-in skill installer:
 ```text
 $skill-installer
 Install the universal-ui-engineering skill from
-https://github.com/YOUR_USERNAME/universal-ui-engineering
+https://github.com/Coldzy213/universal-ui-engineering
 ```
 
 This option depends on the skill installer being available and able to access the repository. Manual Git installation above is a predictable alternative.
@@ -107,7 +107,7 @@ Choose this option when you want contributors to the **same application** to use
 Open a terminal at your application's **repository root** (where its `.git` directory is), then run:
 
 ```powershell
-git submodule add https://github.com/YOUR_USERNAME/universal-ui-engineering.git .agents/skills/universal-ui-engineering
+git submodule add https://github.com/Coldzy213/universal-ui-engineering.git .agents/skills/universal-ui-engineering
 
 git add .gitmodules .agents/skills/universal-ui-engineering
 git commit -m "Add Universal UI Engineering Codex skill"
@@ -349,7 +349,7 @@ Do not clone over an existing installation. If it was installed from Git, use th
 <details>
 <summary><strong>Git says "repository not found".</strong></summary>
 
-Replace `YOUR_USERNAME` with the **actual GitHub owner**, verify the repository exists, and confirm it is public (or that you have access). Copy the HTTPS clone URL directly from GitHub's **Code** menu.
+Replace `Coldzy213` with the **actual GitHub owner**, verify the repository exists, and confirm it is public (or that you have access). Copy the HTTPS clone URL directly from GitHub's **Code** menu.
 
 </details>
 
